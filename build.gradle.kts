@@ -83,14 +83,14 @@ tasks {
         }
     }
 
-    compileTestKotlin {
-        sourceCompatibility = javaTargetVersion
-        targetCompatibility = javaTargetVersion
+//     compileTestKotlin {
+//         sourceCompatibility = javaTargetVersion
+//         targetCompatibility = javaTargetVersion
 
-        kotlinOptions {
-            jvmTarget = javaTargetVersion
-        }
-    }
+//         kotlinOptions {
+//             jvmTarget = javaTargetVersion
+//         }
+//     }
 
     java {
         sourceCompatibility = JavaVersion.VERSION_1_8
