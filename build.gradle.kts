@@ -55,7 +55,7 @@ dependencies {
     testApi("org.junit.jupiter:junit-jupiter:5.7.1")
     testApi("org.assertj:assertj-core:3.19.0")
 
-    testFixturesImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
+//     testFixturesImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
 }
 
 tasks {
